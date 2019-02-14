@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="">	
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Source+Sans+Pro" rel="stylesheet">
+	<style> /* CSS */
+		/*
+			table, th, td {
+ 			border: 1px solid black;
+  			border-collapse: collapse;
+		}
+		*/
+		body{
+			width: 500px;
+			height: 650px;
+			margin: 0px;
+			border: 1px solid red;
+			/*font-family: 'Lobster', cursive;*/
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+		#logos{
+			height: 60px;
+		}
+		#logos img{/*    Logo   */
+			width: 120px;
+			height: 60px;
+			margin: 10px 0px 0px 10px;
+		}
+		#logos button{
+			margin-bottom: 20px;
+			border-radius: 5px;
+			color: #fff;
+			background-color: 	 #00ace6;
+		}
+		#products{
+			text-align: center;
+		}
+		#products button{
+			width: 88px;
+			height: 44px;
+			border-radius: 5px;
+			margin-top:5px;
+			font-size: 20px;
+			font-weight: 600;
+			color: white;
+			background-color: #00ace6;
+		}
+		#introduce{
+			
+		}
+		#introduce img{
+			width: 80px;
+			height: 80px;
+
+		}
+		#introduce button{
+			margin-top: 5px;
+			color: white;
+			background-color: #00ace6;
+		}
+		#footer{
+			margin-top: 70px;
+		}
+		p{
+			
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<tr id ="logos">
+			<td>
+			
+				<img src="https://static.hostadvice.com/wp-content/uploads/2015/04/nhanhoa-624x260.png" alt=""> 
+		
+				<button type="">Ngan luong</button>
+				<button type="">Bach kim</button>
+				<button type="">Onepay</button>
+				<button type="">Van chuyen</button>
+				
+			</td>
+		</tr>
+	
+		<tr id="products">
+			<td>
+				<table style="margin: 0 50px">
+					<td>
+						<h3>Chỉ còn 20 giờ nữa cho 100 người may mắn nhất nhận quà khuyến mãi 1 triệu VND từ ABC</h3>
+			
+		
+						Chủ động nộp phí duy trì trước khi tên miền hết thời hạn sử dụng, tự chịu trách nhiệm khi tên miền bị mất do hết hạn sử dụng mà không đóng phí.</br>
+						
+						<button type="button">Lien he</button>
+					</td>
+				</table>
+			</td>
+		</tr>
+		<tr id="introduce">
+			<td>
+				<table style="margin: 5px 20px">
+					<tr>
+						<td>
+							<img src="https://vignette.wikia.nocookie.net/logopedia/images/a/a4/Google-Currents-Featured-300x300.png/revision/latest?cb=20120704191200" alt="">
+				
+						</td>
+						<td>
+							<h3>SSD CLOUD VPS F</h3>
+							Hệ điều hành Windows: Windows server 2003/2008/2012/2016
+Cài đặt và cấu hình toàn bộ server hoàn tất các services: DNS, IIS, FTP, MySQL, MSSQL, SMTP, PHP, Zend Optimizer, AVG Antivirus...
+Hosting Control Panel: Website Panel, Plesk
+
+							<button type="button">Dat mua ngay</button>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>	
+	<table id="footer">
+		<tr>
+			<td>
+				<button type=""><a href="https://nhanhoa.com/" "email me"> Link Trang Chu</a></button>
+				<p>Copyright © *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</p>
+			</td>
+		</tr> 
+	</table>
+	
+</body>
+</html>
